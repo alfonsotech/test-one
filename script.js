@@ -53,3 +53,18 @@ console.log(typeof isCold);
 console.log("friend", friend);
 console.log("typeof friend", typeof friend);
 console.log("friend.length", friend.length); //
+
+let user = 'Jack';
+console.log(user)
+console.log(user.length)
+console.log(typeof user)
+
+let garden = 10
+console.log(garden)
+console.log(typeof garden)
+
+let watered = true
+console.log(typeof watered)
+
+let tomato = null
+console.log(typeof tomato)
