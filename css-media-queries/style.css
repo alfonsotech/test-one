@@ -1,0 +1,66 @@
+* {
+    outline: 1px dotted red;
+}
+
+.flex-container2 {
+    display: flex;
+    flex-direction:column;
+    /* justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap; */
+}
+
+.flex-item2 {
+    padding: 10px;
+}
+/* Base styles */
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    /* Stack items vertically on mobile */
+}
+
+.flex-item {
+    /* border: 1px solid #000; */
+    /* For visibility */
+    padding: 20px;
+    /* Add padding to increase size */
+    /* margin-bottom: 10px; */
+    /* Add some space between items */
+}
+
+/* Clear the margin for the last item */
+.flex-item:last-child {
+    margin-bottom: 0;
+}
+
+/* Media query for laptop view */
+@media screen and (min-width: 1024px) {
+    .flex-container {
+        flex-direction: row;
+        /* Layout items in a row for laptop */
+        flex-wrap: wrap;
+        /* Allow items to wrap */
+    }
+
+    .flex-item {
+        flex: 1 1 100%;
+        /* By default, items take full width */
+    }
+
+    .flex-item:nth-child(2),
+    .flex-item:nth-child(3) {
+        flex: 1 1 auto;
+        /* Allow items to grow */
+    }
+
+    .flex-item:nth-child(2) {
+        flex: 2;
+        /* Item 2 takes twice the space of Item 3 */
+    }
+
+    .flex-item:nth-child(3) {
+        flex: 1;
+        /* Item 3 takes the remaining space */
+    }
+}
