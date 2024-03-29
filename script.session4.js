@@ -81,7 +81,7 @@ console.log("myBeverages", myBeverages);
 // Functions (2 kinds, Function Declarations and FunctionExpressions)
 // Arrays, bracket notation
 // Simpe Array Methods ( .pop(), .push(), .shift(), .unshift(), .slice(), .splice(), .indexOf() )
-//FOR LOOPs, for in, for of
+// FOR LOOPs, for in, for of
 
 //Write a function expression that takes in an array of numbers, iterate over the array of numbers, and for each number if it is even, print 'num is even.' If the num is odd , print 'num is odd to th econsole.
 
