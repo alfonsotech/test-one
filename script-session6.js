@@ -15,7 +15,7 @@ console.log("hello from session 6");
 // While-loop
 // Objects, structure, dot notation, setter and getter, delete, methods
 // For-In loop
-//Simple Object methods
+
 //Complex data structures
 //DOM and DOM manipulation
 

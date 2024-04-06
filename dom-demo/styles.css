@@ -1,0 +1,38 @@
+* {
+    outline:1px dotted red;
+}
+
+h1 {
+    color: lightgreen;
+}
+
+.red-button {
+    background: red;
+}
+
+br {
+    background: blue;
+}
+
+.container {
+    margin: 20px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.flex-item {
+    flex: 1 0 33.33%;
+        /* Adjust to distribute items evenly */
+        height: 100px;
+        /* Adjust height to your preference */
+        background-color: #ccc;
+        /* Adjust background color to your preference */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+}
