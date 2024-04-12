@@ -1,0 +1,6 @@
+1. Set up and init
+2. Main Game Loop
+3. Timer logic
+4. Win/Loose Conditions
+5. End Game
+6. 
