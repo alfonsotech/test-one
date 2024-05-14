@@ -1,10 +1,11 @@
 // Selecting elements
 const title = document.getElementById("title");
-// console.log("title", title);
+console.log("title", title);
 const messages = document.getElementsByClassName("message");
-// console.log("messages", messages);
+console.log("messages", messages);
 const firstMessage = document.querySelector(".message");
 // console.log("firstMessage", firstMessage);
+
 
 // Changing Text & HTML Content
 document.getElementById("changeTextBtn").addEventListener("click", () => {
@@ -23,9 +24,11 @@ document.getElementById("changeStyleBtn").addEventListener("click", () => {
 
 // Creating and Adding an Element
 document.getElementById("addElementBtn").addEventListener("click", () => {
+
   const newElement = document.createElement("p");
   newElement.textContent = "A new paragraph!";
   document.body.appendChild(newElement);
+  
 });
 
 // Removing an Element
