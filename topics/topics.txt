@@ -22,7 +22,7 @@
 // Event handling
 // Promises and async/await
 // Default parameters
-//Advanced Array Methods - Map, Filter, and Reduce
+// Advanced Array Methods - Map, Filter, and Reduce
 // AJAX and the Fetch API
 // Local storage
 // Web APIs (Canvas, Geolocation, etc.)
@@ -32,6 +32,7 @@
 //Switch Statement
 //While Loops
 
-//Array Methods, String Methods
-// String Methods:
+//Array Methods and String Methods Are Very Similar
+/
+/ String Methods:
 // JavaScript provides various built-in methods for manipulating strings, such as charAt(), substring(), slice(), toUpperCase(), toLowerCase(), trim(), split(), indexOf(), lastIndexOf(), and many more. These methods allow you to perform tasks like extracting substrings, converting case, trimming whitespace, splitting strings into arrays, etc.

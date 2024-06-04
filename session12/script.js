@@ -21,15 +21,21 @@ const person = {
   phoneNumbers: ["123-456-7890", "987-654-3210"],
 };
 
-// class Person {
-//   constructor(name, age, isStudent, addresses, phoneNumbers) {
-//     this.name = name;
-//     this.age = age;
-//     this.isStudent = isStudent;
-//     this.addresses = addresses;
-//     this.phoneNumbers = phoneNumbers;
-//   }
-// }
+class Person {
+  constructor(name, age, isStudent, addresses, phoneNumbers) {
+    this.name = name;
+    this.age = age;
+    this.isStudent = isStudent;
+    this.addresses = addresses;
+    this.phoneNumbers = phoneNumbers;
+  }
+}
+
+const john = new Person("john", 38, false, "furst addi", "234q-234523");
+const alice = new Person("alice", 23, true, "asddres", "esrdgasda");
+
+console.log(john);
+console.log(alice);
 
 // class Person {
 //   constructor(name, age, isStudent, addresses, phoneNumbers) {
