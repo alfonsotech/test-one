@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Number Guessing Game</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin-top: 50px;
+      }
+      h1 {
+        color: #333;
+      }
+      #game-container {
+        margin-top: 30px;
+      }
+      #guess-input {
+        padding: 5px 10px;
+        font-size: 16px;
+      }
+      #submit-btn {
+        padding: 5px 10px;
+        font-size: 16px;
+      }
+      #result {
+        margin-top: 20px;
+        font-weight: bold;
+      }
+      #previous-guesses {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Number Guessing Game</h1>
+    <div id="game-container">
+      <p>Guess a number between 1 and 100. You have 10 turns.</p>
+      <input
+        type="number"
+        id="guess-input"
+        min="1"
+        max="100"
+        placeholder="Enter your guess"
+      />
+      <button id="submit-btn">Guess</button>
+      <div id="result"></div>
+      <div id="previous-guesses"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
